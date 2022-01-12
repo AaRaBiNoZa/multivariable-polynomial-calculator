@@ -1,0 +1,14 @@
+/**
+@mainpage Documentation of a multivariable polynomial calculator project
+
+### Description
+
+This year's project is about implementing operations on multivariable
+polynomials.
+
+### Invariables
+
+- for convenience and readibility **constant polynomials are always represented  as constants in my program** they are never in the form of @f$const \cdot x_i^0@f$.
+- for the same reasons **monomials in polynomials  are always sorted according  to the exponents**. It is assured by sorting the  array in PolyAddMonos of [poly.c](@ref poly.c)
+- **there are no polynomials with coefficient 0**
+*/
