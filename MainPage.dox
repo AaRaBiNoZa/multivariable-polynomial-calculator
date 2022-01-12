@@ -4,7 +4,14 @@
 ### Description
 
 This year's project is about implementing operations on multivariable
-polynomials.
+polynomials.<br>
+Variables of a polynomial are marked @f$x_0, x_1, x_2@f$.<br>
+Definition of a polynomial is recursive. A polynomial is a sum of monomials in
+the form of @f$px_0^n@f$, where non negative integer @f$n@f$ is the exponent of this monomial
+while @f$p@f$ is a coefficient which is a polynomial by itself.<br>
+A coefficient of a @f$x_i@f$ monomial is a sum of @f$x_{i+1}@f$ monomials.
+Recurrence ends when a coefficient is a number (a constant polynomial), and not
+a sum of monomials.
 
 ### Invariables
 
